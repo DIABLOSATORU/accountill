@@ -46,7 +46,7 @@ const Header = () => {
 
 
     // const getMetaData = async() => {
-    //   const response = await axios.get('https://api.github.com/repos/panshak/arc')
+    //   const response = await axios.get('https://api.github.com/repos//arc')
     //       // console.log(response.data);
     // }
 
