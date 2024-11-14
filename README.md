@@ -1,15 +1,10 @@
-### [accountill.com](https://accountill.com/)
-# MERN Stack Invoicing Application
+# MERN Billing Application
 Built with the MERN stack (MongoDB, Express, React and NodeJS).
 ![Invoice](https://res.cloudinary.com/almpo/image/upload/v1637311386/invoice/invoice-app_tcz0dj.png)
 
 
-## Update
-I am pleased to inform you that the name of this repository has been changed from Arc Invoice to Accountill.
-There are so many things coming! Stay tuned!!
 
-
-Panshak
+Ansh Srivastava
 ----
 
   * [Introduction](#introduction)
@@ -20,24 +15,21 @@ Panshak
       - [Database](#database)
   * [Configuration and Setup](#configuration-and-setup)
   * [Troubleshooting](#troubleshooting)
-  * [Author](#author)
-  * [License](#license)
 
 ## Introduction
-This is a side project I've been working on. A full stack invoicing application made using the MERN stack (MongoDB, Express, React & Nodejs), specially designed for freelancers and small businesses, but can be used for almost any type of business need. With this application, you can send beautiful invoices, receipts, estimates, quotes, bills etc to your clients. Jump right off the [Live App](https://accountill.com/) and start sending invoice or download the entire [Source code](https://github.com/Panshak/accountill) and run it on your server. This project is something I've been working on in my free time so I cannot be sure that everything will work out correctly. But I'll appreciate you if can report any issue.
-
+I've been developing a comprehensive billing application built with the MERN stack (MongoDB, Express, React, and Node.js). It’s designed primarily for freelancers and small businesses but is versatile enough to support various business needs. With this app, you can easily create and send polished invoices, receipts, estimates, quotes, bills, and more to your clients.
 ![Invoice Dashboard](https://res.cloudinary.com/almpo/image/upload/v1637314504/invoice/dashboard_c5z0is.png)
 
 ## Key Features
-- Send invoices, receipts, estimates, quotations and bills via email
-- Generate and send/download pdf invoices, receipts, estimates, quotations and bills via email
-- Set due date.
-- Automatic status change when payment record is added
-- Payment history section for each invoice with record about payment date, payment method and extra note.
-- Record partial payment of invoice.
-- Clean admin dashboard for displaying all invoice statistics including total amount received, total pending, recent payments, total invoice paid, total unpaid and partially paid invoices. 
-- Multiple user registration.
-- Authentication using jsonwebtoken (jwt) and Google auth
+- Send invoices, receipts, estimates, quotes, and bills directly via email.
+- Generate and email/download PDF versions of invoices, receipts, estimates, quotes, and bills.
+- Set due dates for invoices.
+- Automatic status updates upon adding a payment record.
+- Payment history section for each invoice, including details on payment date, method, and additional notes.
+- Record partial payments on invoices.
+- Clean, intuitive admin dashboard showcasing key invoice statistics: total amount received, pending amounts, recent payments, fully paid, unpaid, and partially paid invoices.
+- Multi-user registration support.
+- Secure authentication using JSON Web Tokens (JWT) and Google OAuth.
 
 
 ## Technologies used
@@ -112,13 +104,7 @@ SMTP_PASS =
 
 ```
 
-Please follow [This tutorial](https://dev.to/dalalrohit/how-to-connect-to-mongodb-atlas-using-node-js-k9i) to create your mongoDB connection url, which you'll use as your DB_URL
 
-```
-$ cd server
-$ npm install (to install server-side dependencies)
-& npm start (to start the server)
-```
 
 ## Troubleshooting
 If you're getting error while trying to send or download PDF,
@@ -162,19 +148,3 @@ And then
 
 docker-compose -f docker-compose.prod.yml up
 ```
-
-## Comment
-I intend to keep adding more features to this application, so if you like it, please give it a star, that will encourage me to 
-to keep improving the project.
-
-
-## Author
-
-- Twitter: [@panshak_](https://twitter.com/panshak_)
-- Github: [@panshak](https://github.com/panshak)
-- Linkedin: [@panshak](https://www.linkedin.com/in/panshak/)
-- Email: [@ipanshak](mailto:ipanshak@gmail.com)
-
-## License
-
-- This project is [MIT](https://github.com/Panshak/accountill/blob/master/LICENSE.md) licensed.
